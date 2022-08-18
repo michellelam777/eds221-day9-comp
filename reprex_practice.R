@@ -35,3 +35,6 @@ example_df <- tribble(
 
 example_df |>
   mutate(type = str_to_lower(type))
+
+# to create a reprex copy the code chunk in your R script and then type in reprex() in the console, paste to github or slack (in slack format with command + shift + f)
+# use reprex(value = "slack") to format it for slack
